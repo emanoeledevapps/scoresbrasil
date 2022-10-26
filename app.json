@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#008916"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,8 +23,11 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#008916"
+      },
+      "package": "com.ea.scoresbrasil",
+      "permissions": ["INTERNET", "SYSTEM_ALERT_WINDOW"],
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
